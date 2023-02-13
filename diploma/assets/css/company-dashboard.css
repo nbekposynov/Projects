@@ -1,0 +1,22 @@
+.applied-box
+{
+    background-color: white;
+    box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.11);
+    border-radius: 35px;
+}
+.applied-table{
+    margin: 0 auto;
+    box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.11);
+}
+
+.applied-table thead{
+    background-color: var(--primary-color);
+   
+    color: white;
+   
+}
+
+.applied-table thead tr td{
+   padding: 25px;
+   
+}

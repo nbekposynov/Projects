@@ -1,0 +1,181 @@
+/* Landing page*/
+
+.landing
+{
+
+  background-color: var(--secondary-color);
+}
+
+.landing-grid {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 500px 500px 500px ; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."
+      "."; 
+  }
+  
+  .landing-columns {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 500px; 
+    
+    grid-template-areas: 
+      ". ."; 
+  }
+  
+  .landing-rows {
+    display: grid;
+    width:100%;
+    height:100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .landing-rows h3{
+    font-weight: 800;
+  }
+  
+  .under {
+    background-color:var(--primary-color);
+    color: white;
+  }
+  
+  .white{
+    color: white;
+  }
+  
+  
+  .landing-block-1{
+    color: var(--text-color);
+    text-align: left;
+    align-items: left;
+    vertical-align: middle;
+    padding: 10%;
+  width: 100%;
+  
+  height: 600px;
+  }
+
+  .landing-block-1 .btn
+  {
+float: left;
+  }
+  
+  .landing-block-2{
+    color: #92A2FD;
+    text-align: left;
+    font-size: 70px;
+    font-weight:bold;
+    padding: 10%;
+  width: 100%;
+   
+  height: 600px;
+  }
+  
+  .landing-block-3{
+  width: 100%;
+  height: 600px;
+  }
+  
+  
+  .landing-block-1-white{
+    color: #ffffff;
+    text-align: left;
+    align-items: left;
+    padding: 10%;
+  width: 100%;
+  
+  height: 600px;
+  }
+  
+  
+  .landing-circle{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  
+    z-index: 2;
+  }
+  
+  .landing-card{
+    overflow: hidden;
+    border-radius: 40px;
+    text-align:center;
+    color: var(--text-color);
+    padding: 25px;
+    background-color:var();
+    display: grid; 
+    grid-template-columns: 250px; 
+    grid-template-rows: 100px 150px 40px; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      "."
+      "."; 
+      /*border: 1px solid #e0e0e0;*/
+      box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.11);
+  }
+  
+  .landing-card h2{
+    margin-top: 25px;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+  
+  .landing-card .btn{
+    background-color: #f8f8f8;
+    transition: .2s ease-in-out 0s;
+   
+  }
+  
+  .landing-card .btn:hover{
+    
+   transform: scale(1.1);
+  }
+  
+  .landing-circle img{
+    
+    object-fit: contain;
+    width:100%;
+   height:100%;
+   -webkit-filter: drop-shadow(18px 13px 41px rgba(0, 0, 0, 0.3));
+   filter: drop-shadow(18px 13px 41px rgba(0, 0, 0, 0.3));
+  }
+
+ .landing-background-circle
+ {
+   background-color: var(--secondary-color);
+   border-radius: 100%;
+   width: 1000px;
+   height: 1000px;
+   position:absolute;
+   z-index: 0;
+   right:-15%;
+   top: -25%;
+   
+ }
+  
+ .landing-card-circle
+ {
+   background-color: var(--secondary-color);
+   border-radius: 100%;
+   width: 150px;
+   height: 150px;
+   position:absolute;
+   z-index: -3;
+   margin-top: -15%;
+   margin-left: -15%;
+   
+ }
+
+ .h-text1
+ {
+font-size: 48px;
+font-weight: bolder;
+ }

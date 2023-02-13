@@ -1,0 +1,238 @@
+
+.content
+{
+    margin: 5% 0 5% 0%;
+}
+
+.form-holder
+{
+    width: 100%;
+
+}
+
+.form-holder tr
+{
+    
+    background-color: white;
+    border-radius: 35px;
+}
+
+.form-holder td
+{
+    padding: 10px;
+}
+
+.delete
+{
+    color: rgb(255, 100, 100);
+}
+
+
+.edit
+{
+    color: rgb(100, 255, 115);
+}
+
+.button-group
+{
+    float: right;
+    padding: 10px 0px 30px 0px;
+}
+
+.form-div
+{
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 35px;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 70%; 
+    grid-template-rows: 70px 70px; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      "."
+      ".";
+   
+}
+
+.form-div-row
+{
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 20% 80%; 
+    grid-template-rows: 50px; 
+    gap: 5px 15%; 
+    grid-template-areas: 
+      ". ."; 
+}
+
+.form-div input
+{
+    background-color: #f8f8f8;
+}
+
+
+
+
+
+.form-div textarea
+{
+    border: solid 5px var(--primary-color);
+    min-width: 100%;
+    max-width: 100%;
+    border: none;
+    background-color: #f8f8f8;
+}
+
+/* CREATE FORM*/
+
+.create-form{
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 100%; 
+    grid-template-rows: auto; 
+    gap: 25px 25px; 
+    grid-template-areas: 
+      "."
+      "."
+      ".";  
+}
+
+.create-form-holder
+{
+    margin-bottom: 25px;
+}
+
+.create-form-holder h2
+{
+text-align: center;
+font-weight: lighter;
+color: var(--primary-color);
+}
+
+
+
+.create-form textarea{
+    border: solid 5px var(--primary-color);
+    height: 250px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.create-form-row{
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 200px 200px 200px; 
+    grid-template-rows: 50px; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      ". ."; 
+      margin-top: 15px;
+      
+}
+
+.create-form-row2:first-child
+{
+    margin-top: 25px;
+}
+
+.create-form-row2
+{
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 200px 800px; 
+    grid-template-rows: 100px; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      ". ."; 
+    margin-top: 25px;
+}
+
+.create-form-row2 label
+{
+    padding: 15px 15px 15px 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.form-btn
+{
+    align-items: center;
+}
+
+
+/* TABLE  */
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1rem;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+	color: green;
+}
+
+.delete {
+	color: red;
+}
+
+.publish {
+	color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+	text-decoration: underline;
+}
+
+form{
+background-color: white;
+border-radius: 35px;
+padding: 25px;
+width: 70%;
+margin: 0 auto;
+}
+
+textarea
+{
+    border: none;
+    max-width:  50%;
+    min-width:  50%;
+    height: 50px;
+    max-height: 100px;
+    min-height: 50px;
+    background-color: var(--page-color);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+#create-form
+{
+    padding: 5%;
+}
+
+

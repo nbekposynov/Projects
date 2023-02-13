@@ -1,0 +1,12 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg5" inkscape:version="1.1.2 (b8e25be833, 2022-02-05)" sodipodi:docname="edumingo.svg" viewBox="2.12 2.16 128 128">
+  <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#cccccc" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="1" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" inkscape:zoom="0.7198092" inkscape:cx="113.22445" inkscape:cy="336.89483" inkscape:window-width="1920" inkscape:window-height="1001" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="layer1"/>
+  <defs id="defs2">
+    <linearGradient id="linearGradient4241" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop4239"/>
+    </linearGradient>
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="16.908415 : 120.0383 : 1" inkscape:vp_y="0 : 425.46301 : 0" inkscape:vp_z="226.90842 : 120.0383 : 1" inkscape:persp3d-origin="121.90842 : 98.977885 : 1" id="perspective472"/>
+  </defs>
+  <g inkscape:label="Слой 1" inkscape:groupmode="layer" id="layer1">
+    <path id="path1167" style="fill:#be7eff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.492373" d="m 60.325334,72.544132 c 3.49957,0.10791 1.59431,5.24042 -0.16308,6.39583 -4.76239,3.13109 -10.16183,-1.75492 -11.46994,-6.75448 -2.3399,-8.94304 4.38998,-17.27222 12.12227,-18.82884 11.34745,-2.28441 21.35355,7.91557 22.77681,19.90479 1.89697,15.97975 -10.00934,29.730998 -24.08146,31.261858 C 41.801604,106.44971 26.768174,90.426042 25.426262,71.468182 23.801025,48.507682 41.057634,29.181503 61.466914,27.773313 85.518544,26.113803 105.64495,48.052522 106.85744,73.978732 108.25731,103.91156 85.604104,128.85334 58.857604,130.10662 28.466534,131.53066 3.2240159,103.64551 2.1602089,70.750892 0.96677992,33.848082 29.035504,3.2736601 62.119234,2.1899891 98.848454,0.98691108 129.21803,34.832992 130.12349,74.696032"/>
+  </g>
+</svg>

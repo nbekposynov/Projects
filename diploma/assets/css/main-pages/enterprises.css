@@ -1,0 +1,179 @@
+.type1{
+ 
+ background-size: cover;
+ vertical-align: middle;
+ width: 37%;
+ height: 240px;
+ margin-right: 0px;
+ border-radius: 10%;
+ float:left;
+ transition: transform .3s; /* Animation */
+margin-left: 64px;
+}
+.type1:hover{
+ transform: scale(1.1);
+}
+.type2{
+
+background-image: url("https://i4.photo.2gis.com/images/profile/30258560070696483_227e.jpg");
+background-size: cover;
+vertical-align: middle;
+border-radius: 10%;
+width: 37%;
+height: 240px;
+float:left;
+margin-left:50px;
+transition: transform .3s; /* Animation */
+
+
+}
+.type2:hover{
+ transform: scale(1.1);
+}
+.type3{
+
+background-image: url("https://pbs.twimg.com/media/D9BJCmkWwAEc5cq.jpg");
+background-size: cover;
+width: 37%;
+height: 240px;
+float:left;
+margin-left:64px;
+margin-top:10px;
+border-radius: 10%;
+transition: transform .3s; /* Animation */
+}
+.type3:hover{
+ transform: scale(1.1);
+}
+.type4{
+
+background-image: url("http://samatshow.kz/wp-content/uploads/photo-gallery/temir_zholy/review/001-temir-zholy.jpg");
+background-size: cover;
+vertical-align: middle;
+width: 37%;
+height: 240px;
+float:left;
+margin-left:50px;
+margin-top:10px;
+border-radius: 10%;
+transition: transform .3s; /* Animation */
+}
+.type4:hover{
+ transform: scale(1.1);
+}
+.type1text{
+ color: white;
+ font-size: 35%;
+ text-align: center;
+ width: 34%;
+ height: 240px;
+ display:table-cell;
+vertical-align:bottom;
+text-shadow: 1px 1px 1px #000;
+
+ 
+}
+.text{
+ font-size: 100%;
+ text-align: justify;
+ width: 34%;
+ height: 240px;
+ display:table-cell;
+vertical-align:bottom;
+
+}
+
+.ent-grid{
+    margin-top:25px;
+    margin-bottom: 25px;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: auto; 
+    gap: 10px 0px; 
+    grid-template-areas: 
+      ". . . ."; 
+}
+
+.ent-holder{
+    padding: 20px 0px 20px 0px;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 100%; 
+    grid-template-rows: 100px 50px 100px; 
+    gap: 5px 0px; 
+    grid-template-areas: 
+      "."
+      "."; 
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.11);
+    width: 250px;
+    height: 350px;
+}
+
+.ent-title
+{
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.ent-holder img
+{
+    
+    background-size: cover;
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.ent-holder .cname 
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.ent-holder .cbody
+{
+    padding: 15px;
+}
+
+.ent-single-grid{
+    background-color: white;
+    box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.11);
+    border-radius: 35px;
+    padding:25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: auto; 
+    gap: 5px 0px; 
+    grid-template-areas: 
+      ". ."; 
+}
+
+.ent-single-grid img
+{
+    padding: 5%;
+}
+
+.ent-single-row{
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 30% 70%; 
+    grid-template-rows: 30px; 
+    gap: 5px 0px; 
+    grid-template-areas: 
+      ". ."; 
+}
+
+.ent-body{
+   
+}
